@@ -2,7 +2,7 @@ package Semi2;
 
 import java.util.Scanner;
 
-public class ProgrammEx4 {
+public class ProgramEx4 {
     public static void main(String[] args) {
         enterString();
     }
