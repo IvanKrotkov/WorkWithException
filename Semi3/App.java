@@ -19,7 +19,7 @@ public class App {
                 dataArray = tryParse(data);
                 writeInFile(dataArray);
             } catch (DataException e) {
-                System.out.println(e.getMessage() + "\nПовторите попытку");
+                System.out.println(e.getMessage() +"cимвол "+ e.getaChar() + "\nПовторите попытку");
                 data = s.nextLine();
                 try {
                     dataArray = tryParse(data);
